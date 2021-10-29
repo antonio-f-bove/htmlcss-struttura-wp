@@ -9,14 +9,14 @@
     margin: 10px auto;
 }
 
-/* .clearfix::after {
-    content: '';
-    position: table;
+.clearfix::after {
+    content: "";
     clear: both;
-} */
-.clearfix{
-    overflow: hidden;
+    display: table;
 }
+/* .clearfix{
+    overflow: auto;
+} */
 
 /* ------------------------ */
 
